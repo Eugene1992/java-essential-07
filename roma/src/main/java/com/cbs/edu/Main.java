@@ -6,7 +6,7 @@ package com.cbs.edu;
 public class Main {
 
     /**
-     * Start point of a program.
+     * Start point of side program.
      * @param args input arguments.
      */
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package homeworkOneProbaTwo;
+package hw00;
 
 /**
  * Created by Roma on 11.09.2016.

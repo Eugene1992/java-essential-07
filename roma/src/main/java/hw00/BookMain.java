@@ -1,4 +1,4 @@
-package homeworkOneProbaTwo;
+package hw00;
 
 /**
  * Created by Roma on 11.09.2016.
@@ -21,11 +21,15 @@ public class BookMain {
         System.out.println(bookOne.getIndex());
     }
 
-    public static void sortStruct(Book[] bookMas) {
-        Book pricemax = bookMas[0];
-        for (Book bookMa : bookMas) {
-            if (bookMa.getPrice() > pricemax.getPrice()) {
-                pricemax = bookMa;
+    /**
+     * Sort books by price.
+     * @param books input books array
+     */
+    public static void sortByPrice(Book[] books) {
+        Book maxPriceBook = books[0];
+        for (Book book : books) {
+            if (book.getPrice() > maxPriceBook.getPrice()) {
+                maxPriceBook = book;
             }
         }
     }

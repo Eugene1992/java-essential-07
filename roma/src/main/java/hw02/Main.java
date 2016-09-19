@@ -1,5 +1,4 @@
-package HwTwoOOPSquare;
-import java.lang.Math;
+package hw02;
 
 /**
  * Created by Roma on 19.09.2016.

@@ -1,4 +1,4 @@
-package HwOOP1;
+package hw01;
 
 public class StudentsService {
     public static void main(String[] args) throws Exception {
