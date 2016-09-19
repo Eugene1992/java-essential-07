@@ -19,7 +19,7 @@ public class Test {
         employeeOne.name = "Pasha";
         employeeOne.age = 19;
         employeeOne.salary = 17000;
-
+//
         Employee[] employees = {
             employeeOne,
             employeeTwo,
