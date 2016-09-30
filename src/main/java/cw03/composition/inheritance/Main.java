@@ -13,7 +13,7 @@ public class Main {
         }
 
 
-        /*Animal[] animals = {homeAnimal, wildAnimal};
+        /*Dog[] animals = {homeAnimal, wildAnimal};
         getMaxWeight(animals);*/
 
     }

@@ -5,10 +5,10 @@ package cw07;
  */
 public class Test {
     public static void main(String[] args) {
-        Plane.Engine engine =
+        Plane.Engine inner =
                 new Plane("Il-21").new Engine(400.0);
 
-        Plane.NestedClass nestedClass =
+        Plane.NestedClass nested =
                 new Plane.NestedClass();
 
         new Plane.NestedClass();

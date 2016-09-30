@@ -8,6 +8,6 @@ public class Animal {
     }
 
     public void speak() {
-        System.out.println("Animal say something...");
+        System.out.println("Dog say something...");
     }
 }

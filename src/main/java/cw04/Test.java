@@ -5,7 +5,7 @@ public class Test {
         Animal cat = new Cat("Barsik");
         Animal dog = new Dog("Rex");
         Animal duck = new Duck("Ducky");
-        Animal animal = new Animal("Animal");
+        Animal animal = new Animal("Dog");
 
         speakAll(new Animal[]{cat, dog, duck, animal});
     }
